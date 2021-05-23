@@ -476,7 +476,7 @@
     },
     {
         "id": "O_10",
-        "type": "Bildungseinrichtungen --???--> Umfeld",
+        "type": "Umfeld",
         "name": "Museum",
         "access": {
             "age": {
