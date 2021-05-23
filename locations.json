@@ -1,0 +1,688 @@
+[
+    {
+        "id": "O_1",
+        "type": "Bildungseinrichtungen",
+        "name": "Kindergarten",
+        "access": {
+            "age": {
+                "min": 0,
+                "max": 2191.5
+            }
+        },
+        "effects": {
+            "E_3": {
+                "min": 0.1,
+                "max": 0.5
+            },
+            "E_9": {
+                "min": -0.1,
+                "max": 0.5
+            },
+            "E_10": {
+                "min": -0.1,
+                "max": 0.1
+            },
+            "E_11": {
+                "min": -0.2,
+                "max": 0.4
+            },
+            "E_12": {
+                "min": 0,
+                "max": 0.5
+            },
+            "E_14": {
+                "min": -0.1,
+                "max": 0.5
+            },
+            "E_15": {
+                "min": 0,
+                "max": 0.3
+            }
+        },
+        "graduation": []
+    },
+    {
+        "id": "O_2",
+        "type": "Bildungseinrichtungen",
+        "name": "Grundschule",
+        "access": {
+            "age": {
+                "min": 2191.5,
+                "max": 4383
+            }
+        },
+        "effects": {
+            "E_2": {
+                "min": -0.1,
+                "max": 0.3
+            },
+            "E_3": {
+                "min": -0.1,
+                "max": 0.5
+            },
+            "E_5": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_9": {
+                "min": -0.3,
+                "max": 0.3
+            },
+            "E_10": {
+                "min": -0.1,
+                "max": 0.2
+            },
+            "E_11": {
+                "min": -0.3,
+                "max": 0.2
+            },
+            "E_15": {
+                "min": -0.2,
+                "max": 0.3
+            }
+        },
+        "graduation": [
+            {
+                "name": "G_O",
+                "probability": 0.9
+            }
+        ]
+    },
+    {
+        "id": "O_3",
+        "type": "Bildungseinrichtungen",
+        "name": "Gymnasium",
+        "access": {
+            "age": {
+                "min": 4383,
+                "max": 6574.5
+            },
+            "educational_opportunities": {
+                "min": 0.65,
+                "max": 1
+            }
+        },
+        "effects": {
+            "E_1": {
+                "min": 0,
+                "max": 0.1
+            },
+            "E_3": {
+                "min": -0.1,
+                "max": 0.3
+            },
+            "E_5": {
+                "min": 0.1,
+                "max": 0.3
+            },
+            "E_6": {
+                "min": 0.1,
+                "max": 0.3
+            },
+            "E_8": {
+                "min": 0.1,
+                "max": 0.4
+            },
+            "E_10": {
+                "min": -0.1,
+                "max": 0.2
+            },
+            "E_11": {
+                "min": 0,
+                "max": 0.5
+            },
+            "E_12": {
+                "min": -0.3,
+                "max": 0.2
+            },
+            "E_13": {
+                "min": -0.2,
+                "max": 0.4
+            },
+            "E_14": {
+                "min": 0.1,
+                "max": 0.3
+            },
+            "E_15": {
+                "min": -0.5,
+                "max": 0.3
+            }
+        },
+        "graduation": [
+            {
+                "name": "G_3",
+                "probability": 0.7
+            },
+            {
+                "name": "G_2",
+                "probability": 0.1
+            }
+        ]
+    },
+    {
+        "id": "O_4",
+        "type": "Bildungseinrichtungen",
+        "name": "Förderschulen",
+        "access": {
+            "age": {
+                "min": 4383,
+                "max": 7305
+            },
+            "educational_opportunities": {
+                "min": 0,
+                "max": 0.65
+            },
+            "characteristics": {
+                "E_8": {
+                    "min": -1.00,
+                    "max": -0.20
+                }
+            }
+        },
+        "effects": {
+            "E_5": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_8": {
+                "min": 0,
+                "max": 0.3
+            },
+            "E_9": {
+                "min": -0.2,
+                "max": 0.2
+            },
+            "E_10": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_14": {
+                "min": -0.1,
+                "max": 0
+            }
+        },
+        "graduation": [
+            {
+                "name": "G_2",
+                "probability": 0.4
+            },
+            {
+                "name": "G_1",
+                "probability": 0.4
+            }
+        ]
+    },
+    {
+        "id": "O_5",
+        "type": "Bildungseinrichtungen",
+        "name": "Realschule",
+        "access": {
+            "age": {
+                "min": 4383,
+                "max": 6574.5
+            },
+            "educational_opportunities": {
+                "min": 0,
+                "max": 0.65
+            },
+            "characteristics": {
+                "E_8": {
+                    "min": -0.2,
+                    "max": 1
+                }
+            }
+        },
+        "effects": {
+            "E_3": {
+                "min": -0.1,
+                "max": 0.3
+            },
+            "E_5": {
+                "min": 0.1,
+                "max": 0.3
+            },
+            "E_6": {
+                "min": -0.3,
+                "max": 0.3
+            },
+            "E_8": {
+                "min": 0,
+                "max": 0.3
+            },
+            "E_10": {
+                "min": -0.1,
+                "max": 0.2
+            },
+            "E_11": {
+                "min": -0.2,
+                "max": 0.2
+            },
+            "E_12": {
+                "min": -0.2,
+                "max": 0.3
+            },
+            "E_13": {
+                "min": -0.2,
+                "max": 0.4
+            },
+            "E_14": {
+                "min": 0,
+                "max": 0.3
+            },
+            "E_15": {
+                "min": -0.1,
+                "max": 0.3
+            }
+        },
+        "graduation": [
+            {
+                "name": "G_2",
+                "probability": 0.6
+            },
+            {
+                "name": "G_1",
+                "probability": 0.3
+            }
+        ]
+    },
+    {
+        "id": "O_6",
+        "type": "Bildungseinrichtungen",
+        "name": "Uni",
+        "access": {
+            "age": {
+                "min": 6574.5,
+                "max": 9131.25
+            },
+            "educational_opportunities": {
+                "min": 0.8,
+                "max": 1
+            },
+            "characteristics": {
+                "E_5": {
+                    "min": 0.4,
+                    "max": 1
+                }
+            },
+            "graduation": "G_3"
+        },
+        "effects": {
+            "E_1": {
+                "min": -0.2,
+                "max": 0.2
+            },
+            "E_2": {
+                "min": -0.3,
+                "max": 0.5
+            },
+            "E_5": {
+                "min": -0.1,
+                "max": 0.7
+            },
+            "E_8": {
+                "min": 0,
+                "max": 0.3
+            },
+            "E_13": {
+                "min": 0.1,
+                "max": 0.4
+            },
+            "E_15": {
+                "min": 0,
+                "max": 0.2
+            }
+        },
+        "graduation": [
+            {
+                "name": "G_4",
+                "probability": 0.5
+            },
+            {
+                "name": "G_5",
+                "probability": 0.2
+            }
+        ]
+    },
+    {
+        "id": "O_7",
+        "type": "Bildungseinrichtungen",
+        "name": "Hochschule",
+        "access": {
+            "age": {
+                "min": 6574.5,
+                "max": 9131.25
+            },
+            "educational_opportunities": {
+                "min": 0.6,
+                "max": 1
+            },
+            "characteristics": {
+                "E_5": {
+                    "min": -0.2,
+                    "max": 0.4
+                }
+            },
+            "graduation": "G_3"
+        },
+        "effects": {
+            "E_1": {
+                "min": -0.2,
+                "max": -0.2
+            },
+            "E_2": {
+                "min": -0.5,
+                "max": 0.3
+            },
+            "E_5": {
+                "min": -0.1,
+                "max": 0.4
+            },
+            "E_8": {
+                "min": 0,
+                "max": 0.3
+            },
+            "E_13": {
+                "min": 0.1,
+                "max": 0.4
+            },
+            "E_15": {
+                "min": -0.2,
+                "max": 0.2
+            }
+        },
+        "graduation": [
+            {
+                "name": "G_4",
+                "probability": 0.6
+            },
+            {
+                "name": "G_5",
+                "probability": 0.1
+            }
+        ]
+    },
+    {
+        "id": "O_8",
+        "type": "Bildungseinrichtungen",
+        "name": "Arbeitsagentur",
+        "access": {
+            "age": {
+                "min": 6574.5,
+                "max": 14610
+            },
+            "job_status": [
+                "J_0"
+            ]
+        },
+        "effects": {
+            "E_2": {
+                "min": -0.2,
+                "max": 0
+            },
+            "E_3": {
+                "min": -0.3,
+                "max": 0.1
+            },
+            "E_9": {
+                "min": -0.3,
+                "max": 0
+            },
+            "E_11": {
+                "min": -0.2,
+                "max": 0.4
+            },
+            "E_12": {
+                "min": -0.3,
+                "max": 0.1
+            }
+        }
+    },
+    {
+        "id": "O_9",
+        "type": "Bildungseinrichtungen",
+        "name": "Arbeitsplatz",
+        "access": {
+            "age": {
+                "min": 6574.5,
+                "max": 14610
+            },
+            "job_status": [
+                "J_1",
+                "J_2"
+            ]
+        },
+        "effects": {
+            "E_2": {
+                "min": -0.3,
+                "max": 0.3
+            },
+            "E_9": {
+                "min": -0.1,
+                "max": 0.1
+            },
+            "E_12": {
+                "min": -0.1,
+                "max": 0.1
+            },
+            "E_13": {
+                "min": 0,
+                "max": 0.3
+            },
+            "E_15": {
+                "min": -0.1,
+                "max": 0.2
+            }
+        }
+    },
+    {
+        "id": "O_10",
+        "type": "Bildungseinrichtungen --???--> Umfeld",
+        "name": "Museum",
+        "access": {
+            "age": {
+                "min": 4383,
+                "max": 14610
+            },
+            "characteristics": {
+                "E_14": {
+                    "min": 0.2,
+                    "max": 1
+                }
+            }
+        },
+        "effects": {
+            "E_2": {
+                "min": 0,
+                "max": 0.1
+            },
+            "E_5": {
+                "min": 0,
+                "max": 0.1
+            },
+            "E_6": {
+                "min": -0.1,
+                "max": 0.2
+            },
+            "E_9": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_10": {
+                "min": -0.1,
+                "max": 0
+            },
+            "E_14": {
+                "min": 0,
+                "max": 0.1
+            }
+        }
+    },
+    {
+        "id": "O_11",
+        "type": "Umfeld",
+        "name": "Jugendzentrum",
+        "access": {
+            "age": {
+                "min": 3652.5,
+                "max": 7305
+            }
+        },
+        "effects": {
+            "E_2": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_6": {
+                "min": -0.2,
+                "max": 0
+            },
+            "E_10": {
+                "min": 0,
+                "max": 0.1
+            },
+            "E_11": {
+                "min": -0.3,
+                "max": 0
+            },
+            "E_12": {
+                "min": -0.1,
+                "max": 0.5
+            },
+            "E_13": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_15": {
+                "min": 0,
+                "max": 0.2
+            }
+        }
+    },
+    {
+        "id": "O_12",
+        "type": "Umfeld",
+        "name": "Theater",
+        "access": {
+            "age": {
+                "min": 2922,
+                "max": 14610
+            }
+        },
+        "effects": {
+            "E_6": {
+                "min": -0.1,
+                "max": 0.2
+            },
+            "E_9": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_12": {
+                "min": -0.1,
+                "max": 0.1
+            },
+            "E_14": {
+                "min": 0,
+                "max": 0.1
+            }
+        }
+    },
+    {
+        "id": "O_13",
+        "type": "Umfeld",
+        "name": "Stadtpark",
+        "effects": {
+            "E_2": {
+                "min": -0.1,
+                "max": 0.2
+            },
+            "E_9": {
+                "min": 0,
+                "max": 0.1
+            },
+            "E_10": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_12": {
+                "min": -0.1,
+                "max": 0.2
+            },
+            "E_15": {
+                "min": 0,
+                "max": 0.1
+            }
+        }
+    },
+    {
+        "id": "O_14",
+        "type": "Umfeld",
+        "name": "Bibliothek",
+        "access": {
+            "age": {
+                "min": 5844,
+                "max": 14610
+            }
+        },
+        "effects": {
+            "E_5": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_6": {
+                "min": -0.2,
+                "max": 0.2
+            },
+            "E_9": {
+                "min": 0,
+                "max": 0.2
+            },
+            "E_10": {
+                "min": -0.1,
+                "max": 0.1
+            },
+            "E_14": {
+                "min": -0.2,
+                "max": 0.2
+            }
+        }
+    },
+    {
+        "id": "O_15",
+        "type": "Umfeld",
+        "name": "Wohngegend",
+        "access": {
+            "influence": "?"
+        },
+        "effects": {
+            "E_1": {
+                "min": -0.5,
+                "max": 0.5
+            },
+            "E_2": {
+                "min": -0.5,
+                "max": 0.5
+            },
+            "E_10": {
+                "min": -0.5,
+                "max": 0.5
+            },
+            "E_11": {
+                "min": -1,
+                "max": 1
+            },
+            "E_12": {
+                "min": -1,
+                "max": 1
+            },
+            "E_13": {
+                "min": -0.5,
+                "max": 0.5
+            },
+            "E_14": {
+                "min": -0.3,
+                "max": 0.5
+            }
+        }
+    }
+]

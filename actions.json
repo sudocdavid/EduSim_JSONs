@@ -1,0 +1,35 @@
+[
+    {
+        "id": "M_1",
+        "name": "Modernisierung von Schulen",
+        "description": "Schulen werden durch Digitalisierung moderner. Dadurch haben mehr Schülerinnen und Schüler Spaß an der Schule und Bildung.",
+        "locations": [
+            "O_2",
+            "O_3",
+            "O_4",
+            "O_5"
+        ],
+        "effects": {
+            "E_1": {
+                "min": -0.2,
+                "max": 0.2
+            },
+            "E_3": {
+                "min": 0,
+                "max": 0.5
+            },
+            "E_4": {
+                "min": -0.2,
+                "max": 0.2
+            },
+            "E_10": {
+                "min": -0.3,
+                "max": 0.2
+            },
+            "E_9": {
+                "min": 0,
+                "max": 0.4
+            }
+        }
+    }
+]

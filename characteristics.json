@@ -1,0 +1,107 @@
+{
+    "E_1": {
+        "name": "Disziplin",
+        "labels": {
+            "min": "ambitionslos",
+            "max": "leistungsstark"
+        }
+    },
+    "E_2": {
+        "name": "Motivation",
+        "labels": {
+            "min": "antriebslos",
+            "max": "motiviert"
+        }
+    },
+    "E_3": {
+        "name": "Lernbereitschaft",
+        "labels": {
+            "min": "desinteressiert",
+            "max": "lernbereit"
+        }
+    },
+    "E_4": {
+        "name": "Arbeitsweise",
+        "labels": {
+            "min": "chaotisch",
+            "max": "strukturiert"
+        }
+    },
+    "E_5": {
+        "name": "Intelligenz",
+        "labels": {
+            "min": "unwissend",
+            "max": "klug"
+        }
+    },
+    "E_6": {
+        "name": "Denkweise",
+        "labels": {
+            "min": "emotional",
+            "max": "rational"
+        }
+    },
+    "E_7": {
+        "name": "Belastbarkeit",
+        "labels": {
+            "min": "unbelastbar",
+            "max": "strapazierbar"
+        }
+    },
+    "E_8": {
+        "name": "Selbstständigkeit",
+        "labels": {
+            "min": "hilfsbedürftig",
+            "max": "selbstständig"
+        }
+    },
+    "E_9": {
+        "name": "Kreativität",
+        "labels": {
+            "min": "fantasielos",
+            "max": "kreativ"
+        }
+    },
+    "E_10": {
+        "name": "Kommunikativität",
+        "labels": {
+            "min": "introvertiert",
+            "max": "extrovertiert"
+        }
+    },
+    "E_11": {
+        "name": "Selbstbezogenheit",
+        "labels": {
+            "min": "egoistisch",
+            "max": "altruistisch"
+        }
+    },
+    "E_12": {
+        "name": "Aufgeschlossenheit",
+        "labels": {
+            "min": "feindselig",
+            "max": "tolerant"
+        }
+    },
+    "E_13": {
+        "name": "Verantwortlichkeit",
+        "labels": {
+            "min": "leichtsinnig",
+            "max": "verantwortungsvoll"
+        }
+    },
+    "E_14": {
+        "name": "Reife",
+        "labels": {
+            "min": "albern",
+            "max": "ernst"
+        }
+    },
+    "E_15": {
+        "name": "Teamfähigkeit",
+        "labels": {
+            "min": "teamunfähig",
+            "max": "teamfähig"
+        }
+    }
+}

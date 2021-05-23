@@ -1,0 +1,40 @@
+{
+    "simulations": [
+        {
+            "UUID": "c7847288-8c16-4d14-a24e-f883c416b150",
+            "title": "MannheimSim",
+            "description": "Simulation von Mannheims Gesellschaft inklusive verschiedener Handlungen des Bildungsministeriums.",
+            "sim_start_datetime": "20210411",
+            "sim_days": "5",
+            "created_realtime": "20210413",
+            "predecessor_UUID": null,
+            "visible": true,
+            "auto_save": {
+                "active": true,
+                "interval": "000001T000000"
+            }
+        },
+        {
+            "UUID": "be458776-d155-48c2-944b-68b4c902a777",
+            "title": "AlternativeMannheimSim",
+            "description": "Eine Kopie der Simulation 'MannheimSim', die auf unterschiedlichen Maßnahmen basiert und alternative Hanldungsstränge verfolgt.",
+            "sim_start_datetime": "20210413",
+            "sim_days": "32",
+            "created_realtime": "20210420",
+            "predecessor_UUID": "c7847288-8c16-4d14-a24e-f883c416b150",
+            "visible": true,
+            "auto_save": null
+        },
+        {
+            "UUID": "79707056-6a9d-4f98-b9d5-4d8a647d381c",
+            "title": "Naturschutz-Simulation",
+            "description": "Eine Gesellschaftssimulation, die besonders auf Handlungen des Naturschutzes basiert und deren Einfluss auf das Bildungssystem simuliert.",
+            "sim_start_datetime": "20210404",
+            "sim_days": "4",
+            "created_realtime": "20210418",
+            "predecessor_UUID": null,
+            "visible": true,
+            "auto_save": null
+        }
+    ]
+}
