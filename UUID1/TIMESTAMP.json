@@ -156,8 +156,8 @@
             "start_date": 365,
             "settings": {
                 "cyclic": {
-                    "interval_run": "000006T000000",
-                    "interval_pause": "000001T000000"
+                    "interval_run": 6,
+                    "interval_pause": 1
                 }
             },
             "visible": true

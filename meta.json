@@ -5,13 +5,13 @@
             "title": "MannheimSim",
             "description": "Simulation von Mannheims Gesellschaft inklusive verschiedener Handlungen des Bildungsministeriums.",
             "sim_start_time": "20210411",
-            "sim_days": "5",
+            "sim_days": 5,
             "real_created_time": "20210413",
             "predecessor_UUID": null,
             "visible": true,
             "auto_save": {
                 "active": true,
-                "interval": "000001T000000"
+                "interval": 7
             }
         },
         {
@@ -19,7 +19,7 @@
             "title": "AlternativeMannheimSim",
             "description": "Eine Kopie der Simulation 'MannheimSim', die auf unterschiedlichen Maßnahmen basiert und alternative Hanldungsstränge verfolgt.",
             "sim_start_time": "20210413",
-            "sim_days": "32",
+            "sim_days": 32,
             "real_created_time": "20210420",
             "predecessor_UUID": "c7847288-8c16-4d14-a24e-f883c416b150",
             "visible": true,
@@ -30,7 +30,7 @@
             "title": "Naturschutz-Simulation",
             "description": "Eine Gesellschaftssimulation, die besonders auf Handlungen des Naturschutzes basiert und deren Einfluss auf das Bildungssystem simuliert.",
             "sim_start_time": "20210404",
-            "sim_days": "4",
+            "sim_days": 4,
             "real_created_time": "20210418",
             "predecessor_UUID": null,
             "visible": true,
